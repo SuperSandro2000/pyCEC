@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 import os
 
 this_dir = os.path.dirname(os.path.abspath(__file__))
-with open(os.path.join(this_dir, "README.rst"), "r") as f:
+with open(os.path.join(this_dir, "README.md"), "r") as f:
     long_description = f.read()
 
 PACKAGES = find_packages(exclude=["tests", "tests.*", "build"])
